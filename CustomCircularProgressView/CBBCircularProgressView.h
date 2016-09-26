@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CircularProgressView : UIView
+@interface CBBCircularProgressView : UIView
 /** 进度 */
 @property(nonatomic,assign)CGFloat signProgress;
 

@@ -15,6 +15,7 @@
 		96FD50C11D99090400A6A057 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96FD50BF1D99090400A6A057 /* LaunchScreen.storyboard */; };
 		96FD50CC1D99090400A6A057 /* CustomCircularProgressViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FD50CB1D99090400A6A057 /* CustomCircularProgressViewTests.m */; };
 		96FD50D71D99090400A6A057 /* CustomCircularProgressViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FD50D61D99090400A6A057 /* CustomCircularProgressViewUITests.m */; };
+		96FD50E61D99091900A6A057 /* CBBCircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FD50E51D99091900A6A057 /* CBBCircularProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		96FD50D21D99090400A6A057 /* CustomCircularProgressViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomCircularProgressViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96FD50D61D99090400A6A057 /* CustomCircularProgressViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCircularProgressViewUITests.m; sourceTree = "<group>"; };
 		96FD50D81D99090400A6A057 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96FD50E41D99091900A6A057 /* CBBCircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBBCircularProgressView.h; sourceTree = "<group>"; };
+		96FD50E51D99091900A6A057 /* CBBCircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBBCircularProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				96FD50B51D99090400A6A057 /* AppDelegate.m */,
 				96FD50B71D99090400A6A057 /* ViewController.h */,
 				96FD50B81D99090400A6A057 /* ViewController.m */,
+				96FD50E41D99091900A6A057 /* CBBCircularProgressView.h */,
+				96FD50E51D99091900A6A057 /* CBBCircularProgressView.m */,
 				96FD50BA1D99090400A6A057 /* Main.storyboard */,
 				96FD50BD1D99090400A6A057 /* Assets.xcassets */,
 				96FD50BF1D99090400A6A057 /* LaunchScreen.storyboard */,
@@ -275,6 +280,7 @@
 			files = (
 				96FD50B91D99090400A6A057 /* ViewController.m in Sources */,
 				96FD50B61D99090400A6A057 /* AppDelegate.m in Sources */,
+				96FD50E61D99091900A6A057 /* CBBCircularProgressView.m in Sources */,
 				96FD50B31D99090400A6A057 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

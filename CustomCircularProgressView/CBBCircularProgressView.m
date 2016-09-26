@@ -6,12 +6,12 @@
 //  Copyright © 2016年 陈彬彬. All rights reserved.
 //
 
-#import "CircularProgressView.h"
+#import "CBBCircularProgressView.h"
 
 #define degreesToRadians(x) (M_PI*(x)/180.0)
 #define PROGRESS_LINE_WIDTH 10 //弧线的宽度
 
-@interface CircularProgressView()
+@interface CBBCircularProgressView()
 {
     CAShapeLayer *_trackLayer;
     CAShapeLayer *_progressLayer;
@@ -27,7 +27,7 @@
 
 @end
 
-@implementation CircularProgressView
+@implementation CBBCircularProgressView
 
 /** 画板 */
 - (void)drawRect:(CGRect)rect {

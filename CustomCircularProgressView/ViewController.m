@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "CBBCircularProgressView.h"
 @interface ViewController ()
 
 @end
@@ -16,13 +16,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    CBBCircularProgressView * circularProgressView =[[CBBCircularProgressView alloc]initWithFrame:CGRectMake(0, 100, 100, 100)];
+    circularProgressView.center = self.view.center;
+    circularProgressView.signProgress = 0.8;
+    [circularProgressView CircularProgressViewStart];
+    [self.view addSubview:circularProgressView];
+    
 }
 
 
